@@ -1,0 +1,26 @@
+{% extends 'basee.html' %}
+{% block content %}
+    <section class="products-section">
+        <div class="products-section-container">
+            <h1 CLASS="text-info text-center">Products</h1>
+            <table class="table">
+                 <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Delete</th>
+                <th>Update</th>
+            </tr>
+            {% for product in products %}
+                <tr>
+                    <td>{{ product.prod_name }}</td>
+                    <td>{{ product.prod_price }}</td>
+                    <td>{{ product.prod_quantity }}</td>
+                    <td><a href="">Delete</a></td>
+                    <td><a href="">Update</a></td>
+                </tr>
+            {% endfor %}
+            </table>
+        </div>
+    </section>
+{% endblock %}
