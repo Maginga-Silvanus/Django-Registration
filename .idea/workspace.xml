@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6207425d-dc7b-4d11-ae51-959a0ec016d7" name="Changes" comment="" />
+    <list default="true" id="6207425d-dc7b-4d11-ae51-959a0ec016d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afternoonDjangoRegistration/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/add-supplier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/payment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/suppliers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/update-supplier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afternoonDjangoRegistration/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/afternoonDjangoRegistration/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afternoonDjangoRegistration/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/afternoonDjangoRegistration/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afternoonDjangoRegistration/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/afternoonDjangoRegistration/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afternoonDjangoRegistration/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/afternoonDjangoRegistration/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/basee.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/basee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/products.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +29,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,8 +50,9 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/emobilis/PycharmProjects/afternoonDjangoRegistration/static/images&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/emobilis/PycharmProjects/djangoCryProject&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -92,18 +112,33 @@
       <workItem from="1677583343782" duration="9100000" />
       <workItem from="1677592838267" duration="4000" />
       <workItem from="1677674890592" duration="317000" />
+      <workItem from="1677766740439" duration="3476000" />
+      <workItem from="1678100698804" duration="2783000" />
+      <workItem from="1678103658994" duration="5327000" />
+      <workItem from="1678187329776" duration="5668000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/afternoonDjangoRegistration/settings.py</url>
-          <line>84</line>
+          <line>85</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

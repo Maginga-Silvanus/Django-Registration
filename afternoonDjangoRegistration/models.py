@@ -12,3 +12,18 @@ class Product(models.Model):
 
 def __str__(self):
     return self.prod_name
+
+
+class Supplier(models.Model):
+    sup_name= models.CharField(max_length=30,
+                                 blank=False, null=False)
+    suo_email = models.CharField(max_length=30,
+                                  blank=False, null=False)
+    sup_phone = models.CharField(max_length=30,
+                                     blank=False, null=False)
+    sup_product = models.CharField(max_length=30,
+                                 blank=False, null=False)
+
+
+def __str__(self):
+    return self.sup_name

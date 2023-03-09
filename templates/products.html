@@ -10,14 +10,16 @@
                 <th>Quantity</th>
                 <th>Delete</th>
                 <th>Update</th>
+                <th>Payment</th>
             </tr>
             {% for product in products %}
                 <tr>
                     <td>{{ product.prod_name }}</td>
                     <td>{{ product.prod_price }}</td>
                     <td>{{ product.prod_quantity }}</td>
-                    <td><a href="">Delete</a></td>
-                    <td><a href="">Update</a></td>
+                    <td><a href="/delete-product/{{ product.id }}">Delete</a></td>
+                    <td><a href="/update-product/{{ product.id }}">Update</a></td>
+                    <td><a href="/payment/{{ product.id }}">Pay via MPESA</a></td>
                 </tr>
             {% endfor %}
             </table>

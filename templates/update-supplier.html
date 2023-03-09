@@ -1,0 +1,33 @@
+{% extends 'basee.html' %}
+{% load static %}
+{% block content %}
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <section class="add-product-section">
+                <div class="add-product-section-container">
+                    <h1 class="text-info text-center">Update Supplier</h1>
+                    <form action=""  method="post">
+                        {% csrf_token %}
+                         <div class="form-group">
+                            <input value="{{ supplier.sup_name }}" required class="form-control" name="s_name" placeholder="supplier name" type="text">
+                        </div>
+                        <div class="form-group">
+                            <input value="{{ supplier.suo_email }}" required class="form-control" name="s_email" placeholder="supplier email" type="email">
+                        </div>
+                        <div class="form-group">
+                            <input value="{{ supplier.sup_phone }}" required class="form-control" name="s_phone" placeholder="supplier phone" type="tel">
+                        </div>
+                        <div class="form-group">
+                            <input value="{{ supplier.sup_product }}" required class="form-control" name="s_product" placeholder="supplier product" type="text">
+                        </div>
+                        <div class="form-group">
+                            <input required class="btn btn-info" name="btn-update" value="update" type="submit">
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <div class="col-3"></div>
+    </div>
+{% endblock %}
